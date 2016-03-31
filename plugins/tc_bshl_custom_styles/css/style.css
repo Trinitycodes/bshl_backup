@@ -1,0 +1,188 @@
+/*
+SITE SPECIFIC STYLING FOR BIG SKY HORSE LEASING
+--------------------------------------------------*/
+
+/*
+Creates larger text in paragraphs 
+--------------------------------------------------------------------------------*/
+p.larger-text {
+  	line-height: 150%;
+ 	color: #000000;
+}
+
+/*
+CONTENT DIV THAT DISPLAYS HORSE IN THE BACKGROUND ON THE BOTTOM LEFT CORNER
+--------------------------------------------------------------------------------*/
+div.dark-background {
+ 	width: 100%;
+ 	background: url('http://bigskyhorseleasing.com/wp-content/uploads/sites/2/2014/02/corner_background_clear.png');
+	background-repeat: no-repeat;
+	background-position: left bottom;
+ 	color: #000000;
+	border: 3px solid #000000;
+	border-radius: 0px;
+}
+
+div.dark-content {
+ 	color: #000000;
+ 	padding: 2.5em;
+}
+
+/*
+Use this on a div to display the arrow pointing down to next text block
+--------------------------------------------------------------------------------*/
+.down-arrow {
+ 	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/*
+Displays a solid border around text and/or an image
+--------------------------------------------------------------------------------*/
+.fancy-div {
+	width: 100%
+ 	margin-right: 0px;
+ 	margin-left: 0px;
+}
+
+.fancy-div {
+ 	border: 2px solid #000000;
+ 	padding: 2em 2em;
+}
+
+.home-div {
+	width: 100%
+ 	margin-right: 0px;
+ 	margin-left: 0px;
+}
+
+.home-div {
+ 	padding: 2em 2em;
+}
+
+/*
+Set element to align center
+--------------------------------------------------------------------------------*/
+.center-it {
+  text-align: center;
+}
+
+/*
+Use this to create a 2.5em space (Use: <div class="spacer"></div>)
+--------------------------------------------------------------------------------*/
+.spacer {
+ padding: 2.5em;
+}
+
+/*
+Set all features to align center
+--------------------------------------------------------------------------------*/
+.feature {
+ text-align: center;
+}
+
+a.t-button {
+	border: none;
+	border-radius: 10px 10px;
+	cursor: pointer;
+	padding: 18px 22px;
+	padding: 1.8rem 2.2rem;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	width: 100%;
+}
+
+a.t-button:hover {
+	box-shadow: 0px 0px 2px #333 inset;
+	font-size: 18px;
+}
+
+a.t-button-red {
+	color: #fff;
+	background-color: #f04848;
+}
+
+a.t-button-red:hover {
+	color: #fff;
+	background-color: #666;
+}
+
+a.t-button-green {
+	color: #fff;
+	background-color: green;
+}
+
+a.t-button-green:hover {
+	color: #fff;
+	background-color: green;
+}
+
+a.t-button-dark {
+	color: #fff;
+	background-color: #333;
+}
+
+a.t-button-dark:hover {
+	background-color: #666
+}
+
+a.t-button-white {
+	background-color: #fff;
+	color: #fff;
+}
+
+a.t-button-white:hover {
+	background: #f5f5f5;
+	color: #999;
+}
+
+a.t-button-blue {
+	background-color: #2574A9;
+	color: #fff;
+}
+
+a.t-button-blue:hover {
+	background: #5C97BF;
+	color: #fff;
+}
+
+
+/* Media Settings */
+@media only screen and (max-width: 800px) {
+
+	.fancy-div {
+
+		padding: 2em .7rem;
+	}
+
+	.one-half::after {
+		
+		clear: both;
+	}
+
+	a.t-button {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 50px;
+		clear: both;
+		padding: 10px;
+		padding: 1em;
+	}
+	
+	div.dark-content {
+	  padding: 5px 5px 20px;
+	  padding: .5em .5em 2em;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+
+	a.t-button {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 10px;
+		padding: 1em;
+	}
+}
